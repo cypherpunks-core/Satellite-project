@@ -4,9 +4,9 @@
 * API 文件說明：https://github.com/Blockstream/satellite/tree/master/api
 * 快速互聯網比特幣中繼引擎（FIBER）是一種協議：http://bitcoinfibre.org/
 * 自製教學
-  * [Building Your Own Bitcoin Satellite Node: Part 1 — Hardware Assembly](https://hackernoon.com/building-your-own-bitcoin-satellite-node-6061d3c93e7)
-  * [Building Your Own Bitcoin Satellite Node: Part 2 — Software Installation](https://medium.com/@notgrubles/building-your-own-bitcoin-satellite-node-part-2-software-installation-a94a0b85d089)
-  * [Building Your Own Bitcoin Satellite Node: Part 3 — Dish Alignment](https://hackernoon.com/building-your-own-bitcoin-satellite-node-part-3-dish-alignment-1306b4c21326)
+  * [Building Your Own Bitcoin Satellite Node: Part 1 — Hardware Assembly](/article/building-your-own-bitcoin-satellite-node-part1.md)
+  * [Building Your Own Bitcoin Satellite Node: Part 2 — Software Installation](/article/building-your-own-bitcoin-satellite-node-part2.md)
+  * [Building Your Own Bitcoin Satellite Node: Part 3 — Dish Alignment](/article/building-your-own-bitcoin-satellite-node-part3.md)
 
 Blockstream衛星網路24小時不間斷地免費將比特幣區塊鏈廣播到全世界，保護網路不受干擾，讓世界上的每一個人都有機會使用比特幣。
 
