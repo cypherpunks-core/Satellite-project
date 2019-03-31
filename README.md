@@ -1,6 +1,21 @@
-# satellite-resource
-衛星計畫
+# satellite-resource 衛星計畫
+***目標：在台灣發射比特幣交易到TELSTAR 18V衛星***
+
+## 衛星計畫 材料
+- [x] 筆電-一台裝有Linux筆電 ，最好有i5 ，硬碟要求 裝的下220GB全節點(最低要求3G修剪過的節點): https://amzn.to/2x6G86r
+- [ ] 至少46公分（18英寸）衛星天線: https://amzn.to/2wBtPzK
+- [ ] 軟體定義的無線電接口(Software Defined Radio Interface): https://amzn.to/2g8Nu2O
+- [ ] Linear Polarization (線性極化) PLL LNB: https://amzn.to/2w0Zk4C
+- [ ] LNB 安裝支架: https://amzn.to/2xgotXU
+- [ ] LNB 電源: https://amzn.to/2KUGouq
+- [ ] 同軸電纜: https://amzn.to/2w7N4xQ
+- [ ] F連接器到SMA同軸適配器（F Connector to SMA Coax Adapter）: https://amzn.to/2gajpAh
+- [x] 用於調整配件的螺絲起子和鉗子
+- [ ] (選則)3英尺，衛星三腳架: https://amzn.to/2w81RZm
+
+## 文章參考
 * 材料說明：https://github.com/Blockstream/satellite/wiki/Hardware-Requirements
+* 衛星覆蓋：https://blockstream.com/satellite/#satellite_network-coverage
 * API 文件說明：https://github.com/Blockstream/satellite/tree/master/api
 * 快速互聯網比特幣中繼引擎（FIBER）是一種協議：http://bitcoinfibre.org/
 * 自製教學
