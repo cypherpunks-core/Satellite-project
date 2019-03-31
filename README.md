@@ -13,6 +13,8 @@
 - [x] 用於調整配件的螺絲起子和鉗子
 - [ ] (選則)3英尺，衛星三腳架: https://amzn.to/2w81RZm
 
+![](https://github.com/Blockstream/satellite/raw/master/doc/api_architecture.png?raw=true)
+
 ## 文章參考
 * 材料說明：https://github.com/Blockstream/satellite/wiki/Hardware-Requirements
 * 衛星覆蓋：https://blockstream.com/satellite/#satellite_network-coverage
