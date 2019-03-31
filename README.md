@@ -18,6 +18,7 @@
 ## 文章參考
 * 材料說明：https://github.com/Blockstream/satellite/wiki/Hardware-Requirements
 * 衛星覆蓋：https://blockstream.com/satellite/#satellite_network-coverage
+* 衛星交易狀態：https://blockstream.com/satellite-queue/
 * API 文件說明：https://github.com/Blockstream/satellite/tree/master/api
 * Video-[使用SDR和GNU無線電降低區塊流量同步道衛星的成本](https://www.youtube.com/watch?v=o1N6zjOgmFA&t=158s)
 * 快速互聯網比特幣中繼引擎（FIBER）是一種協議：http://bitcoinfibre.org/
