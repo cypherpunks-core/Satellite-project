@@ -1,6 +1,6 @@
-# satellite-resource 衛星計畫
+# Satellite Project 衛星計畫
 ***目標：在台灣發射比特幣交易到TELSTAR 18V衛星***
-
+***Goal: Launch Bitcoin transactions in Taiwan to TELSTAR 18V satellite***
 ## 衛星計畫 材料
 - [x] 筆電-一台裝有Linux筆電 ，最好有i5 ，硬碟要求 裝的下220GB全節點(最低要求3G修剪過的節點): https://amzn.to/2x6G86r
 - [ ] 至少46公分（18英寸）衛星天線: https://amzn.to/2wBtPzK
