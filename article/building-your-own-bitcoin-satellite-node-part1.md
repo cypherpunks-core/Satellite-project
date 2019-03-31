@@ -1,9 +1,5 @@
 # Building Your Own Bitcoin Satellite Node: Part 1 — Hardware Assembly
 
-[![Go to the profile of grubles](https://cdn-images-1.medium.com/fit/c/50/50/1*HJnte-5kKYCBJwFE99iYYQ.jpeg)](https://hackernoon.com/@notgrubles?source=post_header_lockup)
-
-[grubles](https://hackernoon.com/@notgrubles)
-
 Aug 23, 2017
 
 ![](https://cdn-images-1.medium.com/max/1200/1*gN909Ok7Ei98Fdl-Zx94NQ.png)
@@ -76,13 +72,3 @@ This concludes Part 1 — Hardware Assembly. [Part 2 will focus on installi
 A special thanks to Chris Cook at Blockstream for walking me through setting my sat node up, and also to Greg Maxwell for informing me of such a cool and exciting application of technology.
 
 For a more in-depth guide visit: https://github.com/Blockstream/satellite
-
-If you found this guide helpful you can toss tips to
-
-37apsFv8YTPXxc38jsXNm7hn5FUMKoggWC
-
-(which will be beamed up to the Blockstream Satellite and down to my Sat Node)
-
-Thanks for reading!
-
--grubles

@@ -1,9 +1,5 @@
 # Building Your Own Bitcoin Satellite Node: Part 2 — Software Installation
 
-[![Go to the profile of grubles](https://cdn-images-1.medium.com/fit/c/50/50/1*HJnte-5kKYCBJwFE99iYYQ.jpeg)](https://medium.com/@notgrubles?source=post_header_lockup)
-
-[grubles](https://medium.com/@notgrubles)
-
 Aug 25, 2017
 
 ![](https://cdn-images-1.medium.com/max/1200/1*NWyyeO2M5WdR8OHspzW0_g.png)

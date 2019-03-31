@@ -1,9 +1,5 @@
 # Building Your Own Bitcoin Satellite Node: Part 3 — Dish Alignment
 
-[![Go to the profile of grubles](https://cdn-images-1.medium.com/fit/c/50/50/1*HJnte-5kKYCBJwFE99iYYQ.jpeg)](https://hackernoon.com/@notgrubles?source=post_header_lockup)
-
-[grubles](https://hackernoon.com/@notgrubles)
-
 Sep 18, 2017
 
 ![](https://cdn-images-1.medium.com/max/800/1*4thvtylgOoJVdkVpr0paUg.jpeg)
@@ -161,9 +157,3 @@ Now, you can turn off (or keep turned off) networking to your device and only re
 This concludes Part 3 of the Building Your Own Bitcoin Satellite Node guide. A special thanks to Chris Cook at Blockstream for walking me through setting my sat node up, and also to Greg Maxwell for informing me of such a cool and exciting application of technology.
 
 For a more in-depth guide visit: https://github.com/Blockstream/satellite
-
-If you found this guide helpful you can spend tips to `3KQFQptqczxfXfWKwTxDw7iwifrf96axuG`
-
-Thanks for reading!
-
--grubles
