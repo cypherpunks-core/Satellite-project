@@ -46,7 +46,11 @@ Blockstream衛星網路24小時不間斷地免費將比特幣區塊鏈廣播到�
     Blockstream衛星提供了新的接收比特幣區塊鏈的方法，並且這個方法不會受連接故障的影響。這保護了用戶不受網路波動的影響，防止任何全節點被孤立或隔離。
 
 ## 工作原理
-Blockstream衛星在地面的站點被稱為“基站（teleport）”，它們參與比特幣網路並將區塊傳送至地球同步衛星。
+1. Blockstream衛星在地面的站點被稱為「基站（teleport）」，它們參與比特幣網路並將區塊傳送至地球同步衛星。
+2. 在35,786公里（22,236英里）高空軌道運行的地球同步衛星接收來自Blockstream衛星基站的訊號，並將其廣播到地球的大部分地區。
+3. 只要你在覆蓋區域內，擁有一個小型衛星天線和一個便宜的USB接收器即可接收這些區塊並保證他們的節點一直保持同步。
+4. 此外，每個Blockstream衛星基站也可以從世界上的其他基站接收區塊，保證基站不會被孤立。
+5. 整個Blockstream衛星網路在地球周圍形成一個環，以確保比特幣網絡具有[完全冗餘](https://zh.wikipedia.org/wiki/%E5%86%97%E9%A4%98)。
 
 ## 新聞蒐集
 * [Bitcoin From Space: Blockstream CSO Explains Its Satellite Services](https://cointelegraph.com/news/bitcoin-from-space-blockstream-cso-explains-its-satellite-services)
