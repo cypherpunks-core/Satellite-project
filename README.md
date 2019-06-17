@@ -3,9 +3,9 @@
 ***Goal: Launch Bitcoin transactions in Taiwan to TELSTAR 18V satellite***
 ## 衛星計畫 材料
 - [x] 筆電-一台裝有Linux筆電 ，最好有i5 ，硬碟要求 裝的下220GB全節點(最低要求3G修剪過的節點): https://amzn.to/2x6G86r
-- [ ] 至少46公分（18英寸）衛星天線: https://amzn.to/2wBtPzK
+- [ ] 至少150公分（59.1英寸）衛星天線
 - [ ] 軟體定義的無線電接口(Software Defined Radio Interface): https://amzn.to/2g8Nu2O
-- [ ] Linear Polarization (線性極化) PLL LNB: https://amzn.to/2w0Zk4C
+- [ ] 可收 C band 的 Linear Polarization (線性極化) PLL LNB
 - [ ] LNB 安裝支架: https://amzn.to/2xgotXU
 - [ ] LNB 電源: https://amzn.to/2KUGouq
 - [ ] 同軸電纜: https://amzn.to/2w7N4xQ
@@ -13,7 +13,8 @@
 - [x] 用於調整配件的螺絲起子和鉗子
 - [ ] (選則)3英尺，衛星三腳架: https://amzn.to/2w81RZm
 
-![](https://github.com/Blockstream/satellite/raw/master/doc/api_architecture.png?raw=true)
+![](https://raw.githubusercontent.com/wiki/Blockstream/satellite/img/hardware_connections.png)
+![](https://i.ibb.co/qWVt7Kb/Screenshot-from-2019-06-17-14-15-42.png)
 
 ## 文章參考
 * 材料說明：https://github.com/Blockstream/satellite/wiki/Hardware-Requirements
@@ -46,6 +47,7 @@ Blockstream衛星網路24小時不間斷地免費將比特幣區塊鏈廣播到�
     Blockstream衛星提供了新的接收比特幣區塊鏈的方法，並且這個方法不會受連接故障的影響。這保護了用戶不受網路波動的影響，防止任何全節點被孤立或隔離。
 
 ## 工作原理
+![](https://github.com/Blockstream/satellite/raw/master/doc/api_architecture.png?raw=true)
 1. Blockstream衛星在地面的站點被稱為「基站（teleport）」，它們參與比特幣網路並將區塊傳送至地球同步衛星。
 2. 在35,786公里（22,236英里）高空軌道運行的地球同步衛星接收來自Blockstream衛星基站的訊號，並將其廣播到地球的大部分地區。
 3. 只要你在覆蓋區域內，擁有一個小型衛星天線和一個便宜的USB接收器即可接收這些區塊並保證他們的節點一直保持同步。
