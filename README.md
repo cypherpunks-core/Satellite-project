@@ -6,9 +6,7 @@
 ## 進度
 
 - [x] 材料購買
-
 - [x] 材料組裝
-
 - [ ] 小耳朵固定
   需要找時間到Taipei hackerspace 釘死在地上
   有機會的話，可以裝馬達，讓小耳朵可以自由旋轉，自動校正瞄準位置
@@ -22,6 +20,9 @@
     `port  9051`
     - [x] ssh server設定
     `port  9050`
+    - [x] docker portainer
+    `port  9000`
+    https://www.portainer.io/installation/
     - [x] 小耳朵解碼器驅動程式安裝
     https://www.nooelec.com/store/qs
     - [x] 編譯安裝gr-blocksat and gr-framers
@@ -33,14 +34,14 @@
     `blocksat-rx-gui -f 1092500000`
     https://github.com/Blockstream/satellite#5-compute-the-receiver-frequency
     - [ ] 把樹莓派變成server ，將它變成訊號的api server，再進一步的丟給另一台電腦處理信號，因為樹莓派跑不動
+    目前啟動server會自己關掉
     `blocksat-rx-lower -f [freq_in_hz] -i [IP] -p [Port]`
     預計為 port 9053
     https://github.com/Blockstream/satellite#split-receiver-mode
     - [ ] 開啟另一台電腦解碼
+    無法在mac os 生成客戶端
     `blocksat-rx-upper -i [Server IP] -p [Server Port]`
-
-    
-    
+    - [ ] FIBER
 
 ## 衛星計畫 材料
 
