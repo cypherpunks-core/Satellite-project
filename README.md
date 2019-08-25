@@ -1,3 +1,9 @@
+---
+title: Satellite Project 衛星計畫
+tags: Cypherpunks-core
+GA: UA-131051587-2
+---
+
 # Satellite Project 衛星計畫
 
 ***目標：在台灣發射比特幣交易到TELSTAR 18V衛星***
@@ -6,54 +12,65 @@
 ## 進度
 
 - [x] 材料購買
+    - [x] 樹莓派3B+ 一顆
+    - [x] 150公分的小耳朵
+    - [x] 軟體定義的無線電接口(Software Defined Radio Interface): https://amzn.to/2g8Nu2O
+    - [x] 可收 C band 的 Linear Polarization (線性極化) PLL LNB
+    - [x] LNB 安裝支架: https://amzn.to/2xgotXU
+    - [x] LNB 電源: https://amzn.to/2KUGouq
+    - [x] 同軸電纜: https://amzn.to/2w7N4xQ
+    - [x] F連接器到SMA同軸適配器（F Connector to SMA Coax Adapter）: https://amzn.to/2gajpAh
+
+![](https://raw.githubusercontent.com/wiki/Blockstream/satellite/img/hardware_connections.png)
 - [x] 材料組裝
 - [ ] 小耳朵固定
   需要找時間到Taipei hackerspace 釘死在地上
   有機會的話，可以裝馬達，讓小耳朵可以自由旋轉，自動校正瞄準位置
 - [ ] 軟體
     - [x] 安裝作業系統到樹莓派
+    > 系統較為特別，要安裝 Ubuntu Mate
     - [x] 樹莓派ＩＰ設定
-    `218.161.36.158`
+    > `218.161.36.158`
     - [x] VNC server設定
-    `vncserver -geometry 1440x900`
-    `port  9051`
+    > `vncserver -geometry 1440x900`
+    > `port  9051`
     - [x] ssh server設定
-    `port  9050`
+    > `port  9050`
     - [x] docker portainer
-    `port  9000`
-    https://www.portainer.io/installation/
+    > `port  9000`
+    > https://www.portainer.io/installation/
     - [x] 小耳朵解碼器驅動程式安裝
-    https://www.nooelec.com/store/qs
+    > https://www.nooelec.com/store/qs
     - [x] 編譯安裝gr-blocksat and gr-framers
-    https://github.com/Blockstream/satellite#from-source
+    > https://github.com/Blockstream/satellite#from-source
     - [x] 啟動
-    無GUI
-    `blocksat-rx -f 1092500000`
-    有GUI
-    `blocksat-rx-gui -f 1092500000`
-    https://github.com/Blockstream/satellite#5-compute-the-receiver-frequency
+    > 無GUI
+    ```
+    blocksat-rx -f 1092500000
+    ```
+    > 有GUI
+    ```
+    blocksat-rx-gui -f 1092500000
+    ```
+    > https://github.com/Blockstream/satellite#5-compute-the-receiver-frequency
     - [ ] 把樹莓派變成server ，將它變成訊號的api server，再進一步的丟給另一台電腦處理信號，因為樹莓派跑不動
-    目前啟動server會自己關掉
-    `blocksat-rx-lower -f [freq_in_hz] -i [IP] -p [Port]`
-    預計為 port 9053
-    https://github.com/Blockstream/satellite#split-receiver-mode
+    > 目前啟動server會自己關掉
+    ```
+    blocksat-rx-lower -f [freq_in_hz] -i [IP] -p [Port]
+    ```
+    > 預計為 port 9053
+    > https://github.com/Blockstream/satellite#split-receiver-mode
     - [ ] 開啟另一台電腦解碼
-    無法在mac os 生成客戶端
-    `blocksat-rx-upper -i [Server IP] -p [Server Port]`
-    - [ ] FIBER
+    > 無法在mac os 生成客戶端
+    ```
+    blocksat-rx-upper -i [Server IP] -p [Server Port]
+    ```
+    - [ ] FIBRE
+    > http://bitcoinfibre.org/
 
 ## 衛星計畫 材料
 
-- [x] 樹莓派3B+ 一顆
-- [x] 150公分的小耳朵
-- [x] 軟體定義的無線電接口(Software Defined Radio Interface): https://amzn.to/2g8Nu2O
-- [x] 可收 C band 的 Linear Polarization (線性極化) PLL LNB
-- [x] LNB 安裝支架: https://amzn.to/2xgotXU
-- [x] LNB 電源: https://amzn.to/2KUGouq
-- [x] 同軸電纜: https://amzn.to/2w7N4xQ
-- [x] F連接器到SMA同軸適配器（F Connector to SMA Coax Adapter）: https://amzn.to/2gajpAh
 
-![](https://raw.githubusercontent.com/wiki/Blockstream/satellite/img/hardware_connections.png)
 ![](https://i.ibb.co/qWVt7Kb/Screenshot-from-2019-06-17-14-15-42.png)
 
 ## 文章參考
