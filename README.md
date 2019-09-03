@@ -45,22 +45,19 @@ tags: Cypherpunks-core
     ![](https://raw.githubusercontent.com/wiki/Blockstream/satellite/img/hardware_connections.png)
 ### 軟體
 #### 樹莓派
-  - [x] OS 安裝
-    > 系統較為特別，要安裝 Ubuntu Mate
+  - [x] OS 安裝 : 系統較為特別，要安裝 Ubuntu Mate
   - [x] IP 設定 : `218.161.36.158`
   - [x] VNC server : `port  9051`
     > `vncserver -geometry 1440x900`
   - [x] ssh server : `port  9050`
-  - [x] docker portainer : `port  9000`
-    > https://www.portainer.io/installation/
-- [x] decoder driver 安裝
-    > https://www.nooelec.com/store/qs
+  - [x] docker portainer : `port  9000` [link](https://www.portainer.io/installation/)
+- [x] decoder driver 安裝 [link](https://www.nooelec.com/store/qs)
 - [x] 編譯 & 安裝 gr-blocksat and gr-framers [link](https://github.com/Blockstream/satellite#from-source)
 - [x] 啟動 [link](https://github.com/Blockstream/satellite#5-compute-the-receiver-frequency)
-    > 無GUI : `blocksat-rx -f 1092500000`
+    > 無GUI : `blocksat-rx -f 1092500000`    
     > 有GUI : `blocksat-rx-gui -f 1092500000`
 - [ ] API server : `port 9053` [link](https://github.com/Blockstream/satellite#split-receiver-mode)
-    > 將它變成訊號的api server，再進一步的丟給另一台電腦處理信號，因為樹莓派跑不動
+    > 將它變成訊號的api server，再進一步的丟給另一台電腦處理信號，因為樹莓派跑不動    
     > 目前啟動server會啟動失敗`blocksat-rx-lower -f [freq_in_hz] -i [IP] -p [Port]`
 
 #### decode server
