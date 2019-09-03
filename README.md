@@ -10,8 +10,6 @@
   - [材料組裝](#%e6%9d%90%e6%96%99%e7%b5%84%e8%a3%9d)
     - [硬體](#%e7%a1%ac%e9%ab%94)
     - [軟體](#%e8%bb%9f%e9%ab%94)
-      - [樹莓派](#%e6%a8%b9%e8%8e%93%e6%b4%be)
-      - [decode server](#decode-server)
 - [文章參考](#%e6%96%87%e7%ab%a0%e5%8f%83%e8%80%83)
 - [為什麼使用衛星？](#%e7%82%ba%e4%bb%80%e9%ba%bc%e4%bd%bf%e7%94%a8%e8%a1%9b%e6%98%9f)
 - [工作原理](#%e5%b7%a5%e4%bd%9c%e5%8e%9f%e7%90%86)
@@ -39,7 +37,7 @@
     **硬體組裝示意圖：**
     ![](https://raw.githubusercontent.com/wiki/Blockstream/satellite/img/hardware_connections.png)
 ### 軟體
-#### 樹莓派
+**樹莓派:**
   - [x] OS 安裝 : 系統較為特別，要安裝 Ubuntu Mate
   - [x] IP 設定 : `218.161.36.158`
   - [x] VNC server : `port  9051`
@@ -55,7 +53,7 @@
     > 將它變成訊號的api server，再進一步的丟給另一台電腦處理信號，因為樹莓派跑不動    
     > 目前啟動server會啟動失敗`blocksat-rx-lower -f [freq_in_hz] -i [IP] -p [Port]`
 
-#### decode server
+**decode server:**
 - [ ] 開啟另一台電腦解碼 `blocksat-rx-upper -i [Server IP] -p [Server Port]`
     
 - [ ] FIBRE [link](http://bitcoinfibre.org/)
