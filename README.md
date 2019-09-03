@@ -1,8 +1,3 @@
----
-title: Satellite Project 衛星計畫
-tags: Cypherpunks-core
----
-
 # Satellite Project 衛星計畫
 
 ***目標：在台灣發射比特幣交易到TELSTAR 18V衛星***
