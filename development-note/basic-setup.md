@@ -40,4 +40,26 @@ $ conda config --add channels rpi
   
 ### Try to Create web-api-server with python=3.6  
 $ conda create -n web-api-server python=3.6  
+
+### Basic commands to change to different conda environment  
+#### To see what conda environment you are in
+$ conda env list   
+\# conda environments:  
+\#
+web-api-server           /home/blockstream/.conda/envs/web-api-server  
+root                  *  /home/blockstream/miniconda3   
+
+Don't install anything in root environment.  Do the following command and you can change environment into web-api-server.  
+$ source activate web-api-server  
   
+$ conda env list   
+\# conda environments:   
+\#
+web-api-server        *  /home/blockstream/.conda/envs/web-api-server  
+root                     /home/blockstream/miniconda3   
+  
+Now, you are in web-api-server environment.  
+  
+Futher more , The way to escape is by the following command...  
+$ source deactivate   
+
