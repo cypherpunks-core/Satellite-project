@@ -33,5 +33,11 @@ PS: click yes for every yes/no question and you can setup conda completely.
 $ which conda    
 /home/blockstream/miniconda3/bin/conda    
 When you see above message, it mean your conda is ready now.   
-
-
+  
+### Add rpi channel for conda  
+You need to add rpi channel because the basic conda package is put on  rpi channel    
+$ conda config --add channels rpi  
+  
+### Try to Create web-api-server with python=3.6  
+$ conda create -n web-api-server python=3.6  
+  
